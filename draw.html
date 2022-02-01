@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Look What I Drew</title>
+    <style>
+        canvas {
+            border: 1px solid black;
+        }
+    </style>
+    <script>
+        window.onload = function() {
+            let canvas = document.getElementById("tshirtCanvas")
+            let context = canvas.getContext("2d")
+            context.fillRect(10, 10, 100, 100)
+            // var c=document.getElementById("tshirtCanvas");
+            // var ctx=c.getContext("2d");
+            // ctx.fillRect(20,20,150,100);
+        }
+    </script>
+</head>
+<body>
+    <canvas width="600" height="200" id="tshirtCanvas"></canvas>
+</body>
+</html>
